@@ -100,7 +100,7 @@ module.exports.getOrderList = async (req, res, next) => {
 module.exports.isAdmin = async (req, res, next) => {
     try {
         const email = req.query.email;
-        if (email === 'rumanislam0429@gmail.com') {
+        if (email === 'anikroy2215@gmail.com') {
             return res.status(200).json({
                 "result": true
             })
